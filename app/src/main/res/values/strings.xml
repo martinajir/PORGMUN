@@ -1,0 +1,309 @@
+<resources>
+    <string name="app_name">PORGMUN</string>
+    <string name="search_hint">Search rules, committees and contacts</string>
+    <string name="title_activity_search">Search</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_committees">Committees</string>
+    <string name="nav_item_news">News</string>
+    <string name="nav_item_map">Map</string>
+    <string name="nav_item_events">Events</string>
+    <string name="nav_item_rules">Rules of Procedure</string>
+    <string name="nav_item_contact">Contact us</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_committees</item>
+        <item>@string/nav_item_news</item>
+        <item>@string/nav_item_rules</item>
+        <item>@string/nav_item_map</item>
+        <item>@string/nav_item_events</item>
+        <item>@string/nav_item_contact</item>
+    </string-array>
+
+    <string name="title_home"> </string>
+    <string name="title_committees">Committees</string>
+    <string name="title_news">News</string>
+    <string name="title_map">Map</string>
+    <string name="title_factbook">Factbook</string>
+    <string name="title_events">Events</string>
+    <string name="title_rules">Rules</string>
+    <string name="title_contact">Contact</string>
+    <string name="title_activity_feed">News</string>
+
+    <string name="home_logo">PORGMUN 2017</string>
+    <string name="facebook_app_id">752597214849138</string>
+
+    <!--lunch posting strings-->
+    <string name="post_URL">https://docs.google.com/forms/d/1XPaQe0j86XwcxbO13uxZRawCwUexyJMHdPlPLoQaD1A/formResponse</string>
+    <string name="entry_name">entry.569049980</string>
+    <string name="entry_lunch">entry.1848830064</string>
+    <string name="entry_vegetarian">entry.1064515687</string>
+    <string name="entry_allergies">entry.1044628477</string>
+    <string name="entry_special">entry.175346585</string>
+
+    <!--lunch fragment strings-->
+    <string name="form_name">Lunch choice</string>
+    <string name="description">Please write your name and pick your preferences</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="name">1. What\'s your name?</string>
+    <string name="lunch">2. Do you want to have lunch in our cafeteria?</string>
+    <string name="veg">3. Are you a vegetarian?</string>
+    <string name="allergies">4. Do you have any food allergies?</string>
+    <string name="special">5. Please list all your extra requirements</string>
+
+
+    <!--Committees-->
+
+    <string name="download1"><u>Download Research Paper</u></string>
+    <string name="download2"><u><!--Download Research Paper (Topic 2)--></u></string>
+    <string name="downloadg1"><u>Download Guide 1</u></string>
+    <string name="downloadg2"><u>Download Guide 2</u></string>
+    <string name="download_rp"><u>Download Sample Memorial Brief</u></string>
+    <string name="download_sc_rules"><u>Download SC Rules of Procedure</u></string>
+    <string name="download_hsc_rules"><u>Download HSC Rules of Procedure</u></string>
+    <string name="sc_rules_odkaz">http://porgmun.cz/doc/2017/sc-rules-of-procedure.pdf</string>
+
+    <string name="hlavni">Swinging back to democracy</string>
+    <string name="hlavni_popisek">The theme of the PORGMUN 2017 Conference is Swinging back to democracy (Striving for institutional change in an ever-changing society). New, hybrid threats, devaluation of national sovereignty in favour of globalization, political radicalization and the evident disconnect of the majority from leading political elites are all clear indicators that our current era is steadily rendering our conventional political system obsolete. The need for change is apparent.</string>
+
+    <string name="security_council">Security Council</string>
+    <string name="security_popisek">Topic: Settling the South China Sea dispute
+        \n\nChairs: David Němeček, Daniel Ronen</string>
+    <string
+        name="sc_research_odkaz">http://porgmun.cz/doc/2017/security-council-research-paper.pdf</string>
+
+    <string name="human_rights">Human Rights Council</string>
+    <string name="human_rights_popisek">Topic 1: Debating on freedom of religious expression in nations affected by terror attacks and/or threats
+\n\nTopic 2: Resolving cultural and logistical obstacles to contraceptives: promoting social and economic rights of women
+        \n\nChairs: Daniel Devereaux, Markéta Lišková</string>
+    <string name="hrc_research_odkaz">http://porgmun.cz/doc/2017/human-rights-council-research-paper.pdf</string>
+
+
+    <string name="historical_security_council">Historical Security Council</string>
+    <string name="historical_security_popisek">Topic: Cuban Missile Crisis: mediating a sustainable and mutually beneficial approach to protect peace and security
+    \n\nChairs: Sebastian Štros, Natálie Vyhnalová</string>
+    <string name="hsc_research_odkaz">http://porgmun.cz/doc/2017/historical-security-council-research-paper.pdf</string>
+
+    <string name="international_court">International Court of Justice</string>
+    <string name="ic_popisek">Topic: to be announced
+    \n\nChairs: Miroslav Crha</string>
+    <string name="icj_guide_odkaz">http://porgmun.cz/doc/2017/icj-guide.pdf</string>
+    <string name="icj_guide_odkaz2">http://porgmun.cz/doc/2017/icj-memorial-brief.pdf</string>
+    <string name="icj_memorial_sample">http://porgmun.cz/doc/2017/icj-sample-memorial-brief.pdf</string>
+
+    <string name="disarmament">Special Political and Decolonisation Committee</string>
+    <string name="disarmament_popisek">Topic 1: Kurdistan: solving the issue of the largest nation without a sovereign territory
+
+        \n\nTopic 2: The future of refugees: the question of assimilation versus repatriation
+    \n\nChairs: Nina Pricová, Robin Zenker</string>
+    <string name="dis_research_odkaz">http://porgmun.cz/doc/2017/special-political-and-decolonization-committee-research-paper.pdf</string>
+
+
+    <string name="human_trafficking">Legal Committee</string>
+    <string name="human_trafficking_popisek">Topic 1: Responsibility to protect: the past and the future of international efforts to prevent mass atrocities
+        \n\nTopic 2: Overcoming the deadlock in defining and combatting international terrorism
+    \n\nChairs: Martin Bláha, Barbora Müllerová</string>
+    <string name="htc_research_odkaz">http://porgmun.cz/doc/2017/legal-committee-research-paper.pdf</string>
+
+
+    <string name="economic_council">Special Conference on Energetics</string>
+    <string name="economic_council_popisek">Topic 1: Carbon offsetting and other innovative methods of reducing emissions while staying competitive
+\n\nTopic 2: Resource entitlement: defining the minimum environmental and financial conditions of fossil fuel exploitation by transnational corporations
+    \n\nChairs: Maxmilián Sup, Šimon Olmer</string>
+    <string name="ecosoc_research_odkaz">http://porgmun.cz/doc/2017/special-conference-on-energetics-research-paper.pdf</string>
+
+
+    <string name="environmental_committee">African Union</string>
+    <string name="environmental_committee_popisek">Topic 1: Strengthening African states by regionally shifting towards an export-based industrial economy focusing specifically on disadvantaged land-locked states
+        \n\nTopic 2: Political crisis in Burundi: establishing a redistribution system for regional migrants and providing them with a social safety net
+    \n\nChairs: Bruce Bybee, Lucie Čapková</string>
+    <string name="ec_research_odkaz">http://porgmun.cz/doc/2017/african-union-research-paper.pdf</string>
+
+
+    <string name="gender_equality">Sustainable Development Committee</string>
+    <string name="gender_equality_popisek">Topic 1: Sustainable agricultural and agronomic innovation for food self-suffiency of LDCs
+    \n\nTopic 2: Personal transportation as a significant contributor to climate change: the strive for more affordable and efficient alternatives
+    \n\nChairs: Františka Tranová, Josef Bratršovský</string>
+    <string name="gec_research_odkaz">http://porgmun.cz/doc/2017/sustainable-development-research-paper.pdf</string>
+
+    <string name="financial_economic">Drugs and Crime Committee</string>
+    <string name="financial_popisek">Topic 1: Reevaluating the war on drugs and updating international legislation on illegal substances
+\n\nTopic 2: Transparent ownership one year after Panama papers
+    \n\nChairs: Daniella Ofer, Marek Gerle</string>
+    <string name="ecofin_research_odkaz">http://porgmun.cz/doc/2017/drugs-and-crime-research-paper.pdf</string>
+
+    <string name="who">World Health Organization</string>
+    <string name="who_popisek">Topic 1: Creating universal morality guidelines for research in the field of genetic modification of human embryos\n\nTopic 2: Assuring women\'s health by globally promoting safe abortion procedures in cases of involuntary pregnancies arising from sexual violence\n\nChairs: Veronika Holubová, Anastasia Rybalchenko</string>
+    <string name="who_research_odkaz">http://porgmun.cz/doc/2017/world-health-organization-research-paper.pdf</string>
+
+
+    <string name="drugs_crime">Committee on Drugs and Crime</string>
+    <string name="drugs_crime_popisek">Topic 1: Reducing the power of the drug lords and gangs and eliminating the negative social phenonemons appearing with drug trafficking and drug use
+\n\nTopic 2: Establishing unified counter-terrorism procedures in the aftermath of the recent terrorist attacks on UN member states
+    \n\nChairs: Nina Pricová, Adam Motloch</string>
+    <string name="dc_research_odkaz">http://porgmun.cz/doc/2016/Committee_on_Drugs_and_Crime_Research_Paper_1.pdf</string>
+    <string name="dc_research_odkaz2">http://porgmun.cz/doc/2016/Committee_on_Drugs_and_Crime_Research_Paper_2.pdf</string>
+
+    <!--Rules, Hesla alphabetically-->
+
+    <!--First decision-->
+    <string name="motions">Points and motions</string>
+    <string name="parts_of_discussion">Parts of the debate</string>
+    <string name="amendments">Amendments</string>
+    <string name="voting">Voting procedure</string>
+
+    <!--Points and motions-->
+    <string name="PointsMotions_popisek">Points and motions are tools used to change the course of debate or to get recognized by the Chair. They cover a wide array of agenda and their knowledge is absolutely instrumental to fully participating in a debate.
+        Below is a list of possible points and motions with explanations.</string>
+    <string name="PoI">Point of Information</string>
+    <string name="PoI1_popisek">The Point of Information to the Speaker serves to ask the Speaker a question regarding their speech. It may only be raised after the Delegate has finished speaking and when the Speaker opens himself to Points of Information. The Speaker may open himself to:
+\n(a)	any and all Points of Information;
+\n(b)	a specified maximum number of Points of Information;
+\n(c)	no Points of Information.
+\n\nThe Point of Information to the Speaker should have the form of a question. A short introductory statement may precede the question. It shall only refer to the discussed matter. The Speaker may choose not to answer the Point of Information. Dialogue on the floor is not allowed. To ask a follow-up question, the Delegate must first ask for a permission of the Chair.
+</string>
+    <string name="PoI2_popisek">The Point of Information to the Chair may be raised by any Delegate when the Chair has the floor. The Point of Information shall not interrupt the Chair and the Delegate must wait to be recognized. The Point of Information to the Chair shall have the form of a question about the proceedings of the Session or a request for information concerning the Topic of the Debate.</string>
+    <string name="PoPP">Point of Personal Privilege</string>
+    <string name="POPP_popisek">The Point of Personal Privilege may be raised by any Delegate in case of personal discomfort. This Point shall not interrupt the Speaker unless it concerns their audibility.</string>
+    <string name="PoO">Point of Order</string>
+    <string name="PoO_popisek">The Point of Order may be raised by any Delegate. It may only refer to the order of proceedings or a violation of the Rules of Procedure, including the mistake of the Chair. This Point may interrupt the Speaker. The Delegate shall then explain the nature of their Point. It is to be evaluated by the Chair immediately.</string>
+    <string name="PoR">Right of Reply</string>
+    <string name="PoR_popisek">The Right of Reply may only be raised by a Delegate
+that was mentioned by the Speaker in a manner they
+consider offending either personally or on behalf of
+their country. This Point may not interrupt the
+Speaker. The Chair may choose not to entertain this
+Point. Exclaiming “Right of Reply” along with raising
+the placard is acceptable when raising this Point. The
+Chair must rule on this point immediately. The Right
+of Reply shall consist of a short, mostly factual
+statement and may include a demand of an apology.
+The Speaker is then asked whether they wish to
+apologize.</string>
+
+    <string name="motion_voting">Motion to move into voting procedure</string>
+    <string name="motion_voting_popisek">The Motion to Move Directly into Voting Procedure may be raised by any Delegate and requires a Second. If any Delegate raises an Objection, the Motion is not in order. The Chair may choose not to entertain this Motion.</string>
+    <string name="motion_closed_debate">Motion to move into closed debate</string>
+    <string name="motion_closed_debate_popisek">The Motion to Move into Closed Debate may be raised by any Delegate during Open Debate. This Motion requires a Second. If any Delegate raises an Objection, the Motion is not in order. The Chair may choose not to entertain this Motion.</string>
+    <string name="motion_unmoderated_caucus_popisek">The Motion to Move into Unmoderated Caucus may be raised by any Delegate during Open Debate. This Motion requires a Second. If any Delegate raises an Objection, this Motion is not in order. The Chair may choose not to entertain this Motion. The Motion to Move into Unmoderated Caucus must specify the time for the Unmoderated Caucus. </string>
+
+    <!--Parts of the debate-->
+    <string name="popisek_parts">The debate starts with ...</string>
+    <string name="closing_ceremony">Closing ceremony</string>
+    <string name="closing_ceremony_popisek"></string>
+    <string name="speech">Delegate\'s Speech</string>
+    <string name="speech_popisek">If a Delegate wishes to give a speech during Open or Closed Debate, he may do so by raising his placard. The Chair may specify the time for individual speeches beforehand. We kindly ask the delegates to stand up when delivering their speech and always refer to themselves and other delegates in the third person. After a Delegate has finished his speech, he may open himself to Points of Information. When all Points of Information have been entertained, the Delegate must yield the floor back to the Chair.
+</string>
+    <string name="lobby_session">Lobbying session</string>
+    <string name="lobby_session_popisek">Each Committee Topic with the exception of the Security Council and the Historical Security Council shall begin with a Lobbying Session,
+during which the Delegates are expected to work on
+Resolutions. During
+Lobbying Session, the Delegates are free to move
+around the room and compose the Resolutions to be
+submitted.
+</string>
+    <string name="resolution">Resolution</string>
+    <string name="resolution_popisek">Resolutions shall be submitted to the Chairs by the
+Main Submitter of the Resolution. Each Resolution
+must have one Main Submitter and at least three
+Co-submitters. Main Submitter must present the Resolution and give a speech on it. Resolutions must be submitted in the
+proper United Nations format. Before a Resolution is debated upon in the Committee, it shall be revised by the Approval Panel, which may change the form, including grammar, wording and style, but not the substance of the Resolution. No Resolution shall be voted upon until all Delegates present have received a copy of it. When a Resolution is submitted, the Committee will enter into Open Debate on the Resolution.</string>
+    <string name="open_debate">Open Debate</string>
+    <string name="open_debate_popisek">In an Open Debate, any Delegate may either take the floor to give a speech by raising their placard, or propose an Amendment. If a Delegate wants to speak about the Resolution, they should raise their placard and only when Chair yielded the floor to them, they may speak. After having finished their speech, they may choose to open themselves to Points of Information. They may state whether they open themselves to “any and all” Points of Information, only to a certain number of Points of Information or no Points of Information. Delegates may also propose Amendments to either add a clause, strike a clause, or modify an existing one. If there are no more Motions or Amendments on the floor, the house will move into Closed Debate on the matter discussed (Amendment or Resolution).</string>
+    <string name="Opening_ceremony">Opening ceremony</string>
+    <string name="opening_ceremony_popisek"></string>
+    <string name="closed_debate">Closed Debate</string>
+    <string name="closed_debate_popisek">Once there are no more delegates wishing to take the floor to speak about the Resolution, Amendment or Amendment to the 2nd degree or submit amendments during Open Debate, or when sufficient time has been spent debating the matter, the Chair will announce moving into a closed debate. During Closed Debate, one speech in favor and one against the Resolution or the Amendment or the Amendment to the 2nd degree will be entertained. After all the speeches and any potential Points of Information have been entertained the Committee will move into the voting procedure.</string>
+    <string name="opening_speech_popisek">Each delegation is required to elect one Ambassador. Every Ambassador will be invited by the President of the General Assembly to give an Opening Speech during the General Assembly of the Opening Ceremony, summarizing their delegation\'s stance and goals for the upcoming Conference.</string>
+    <string name="position_paper_popisek"></string>
+
+    <!--Amendments-->
+    <string name="amendment_popisek">Amendments may be used to:
+         \n(a)add a clause to the Resolution. The Amendments shall include the exact text to be added. Clauses are always
+added to the end of the Resolution;
+\n(b) modify a clause. The Amendment shall cite
+the section to be modified and include the
+exact modified text;
+\n(c) strike a clause. The Amendment shall cite the
+section to be struck.
+
+        \n\nAmendments must be submitted on Amendment sheets provided by a Chairs’ Assistant. They shall be read by the Chair before they can be debated upon. A Chair may refuse to debate upon an Amendment on the grounds that it is too similar to a previous Amendment that has failed to pass.</string>
+    <string name="amendment_2nd">Amendment to the second degree</string>
+    <string name="amendment_2_popisek">Delegates may submit Amendments to Amendments (Amendments to the 2nd Degree). If an Amendment to the 2nd Degree does not pass, the Committee shall proceed into open debate on the original Amendment. If the Amendment to the 2nd Degree passes, the original Amendment passes as well. Amendments to the Amendments to the 2nd Degree (Amendments to the 3rd Degree) shall not be entertained.
+</string>
+    <string name="amendment">Proposing an amendment</string>
+    <string name="amendment_proposal_popisek"></string>
+    <string name="debate_amendment">Open Debate on amendment</string>
+    <string name="debate_amendment_popisek"></string>
+    <string name="closed_debate_amendment">Closed Debate on amendment</string>
+    <string name="closed_debate_amendment_popisek"></string>
+    <string name="voting_on_amendment">Voting on amendment</string>
+    <string name="voting_amendment_popisek">Delegates may not abstain from voting on Amendments and Amendments to the 2nd Degree. Decisions of Committees shall be made by a simple majority of Delegates present and voting. When an Amendment passes, it becomes a part of the draft Resolution.
+</string>
+    <string name="friendly_amendment_popisek">In addition to Amendments, Delegates may also submit Friendly Amendments. Friendly Amendments may be submitted to Resolutions, Amendments or Amendments to the 2nd Degree. Friendly Amendments are not to be voted upon, they are to be agreed or disagreed to by the Main Submitter of the Resolution, Amendment or Amendment to the 2nd Degree. Friendly Amendments may change the form, but not the substance of the Resolution or Amendment.
+</string>
+
+    <!--Voting-->
+    <string name="vote_by_placards">Vote by raising placards</string>
+    <string name="vote_placards_popisek">The Chairs may specify at the beginning of Voting Procedure, whether the delegates will vote by raising their placards or by roll call. Unless specified, the vote will take place by raising placards. The Chair will ask all the delegates in favor to raise their placards, then those against and lastly, whether there were any abstentions. Delegates may abstain from voting on Resolutions but may not abstain from voting on Amendments or Amendments to the 2nd Degree. A simple majority of present and voting Delegates is required in all Voting Procedures. Delegates that abstain from voting are not considered present and voting.
+</string>
+    <string name="vote_by_rollcall">Vote by rollcall</string>
+    <string name="vote_rollcall_popisek">The Chairs may specify at the beginning of Voting Procedure, whether the delegates will vote by raising their placards or by roll call. If the Voting Procedure is done by roll call, the Chair will ask each Delegate for their vote. The Delegates must respond with either \"in favor\", \"against\" or \"abstain\". Delegates may abstain from voting on Resolutions but may not abstain from voting on Amendments or Amendments to the 2nd Degree. A simple majority of present and voting Delegates is required in all Voting Procedures. Delegates that abstain from voting are not considered present and voting.
+</string>
+    <string name="security_council_voting">Voting in Security Council</string>
+    <string name="vote_security_council_popisek">Each member of the Security Council shall have one vote. The five permanent members (P5 Member States) - the French Republic, the People\'s Republic of China, the Russian federation, the United States of America and the United Kingdom of Great Britain and Northern Ireland shall have Veto rights. The P5 Member States shall hold Veto rights in all Voting Procedures. If one or more of the P5 Member
+States vote against the Resolution, Amendment or Amendment to the 2nd Degree, it shall not pass. Abstaining is not considered as vetoing. A simple majority of Delegates is required in all Voting Procedures.
+</string>
+
+
+
+
+    <!--Events-->
+    <string name="thursday"><b>Thursday 6.4.</b>\nPrague City Hall</string>
+    <string name="thursday_popisek">11:00 - 13:00 Registration\n13:00 - 16:30 Opening Ceremony\n16:30 - 16:45 Supervisor Meeting \n19:00 - 21:00 Icebreakers (at Exe Iris Hotel)</string>
+    <string name="friday"><b>Friday 7.4.</b>\nGymnázium Nový PORG</string>
+    <string name="friday_popisek">09:00 - 17:00 Committees in session\n12:00 - 14:00 Lunch\n16:00 - 17:00 NGO presentations\n19:00 - 20:00 Prague Tour (Meeting at St. Wenceslas Statue, Václavské náměstí)</string>
+    <string name="saturday"><b>Saturday 8.4.</b>\nGymnázium Nový PORG</string>
+    <string name="saturday_popisek">09:00 - 16:00 Committees in session\n12:00 - 14:00 Lunch</string>
+    <string name="sunday"><b>Sunday 9.4.</b>\nPrague City Hall</string>
+    <string name="sunday_popisek">10:00 - 12:00 Closing Ceremony</string>
+    <string name="hvezdicka">* This event is organized by the PORGMUN team but without the supervision of Nový PORG and PORG Libeň schools.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--Map-->
+
+    <string name="initial_text">Click the markers to display information about the venue</string>
+    <string name="novy_porg">Nový PORG\nPod Krčským lesem 1383/4\n142 00\nPraha</string>
+    <string name="map_link">Open Google Maps</string>
+    <string name="novy_porg_nazev">Gymnázium Nový PORG\n<b>Committees in session</b>\n\nPod Krčským lesem 1381/4\nBus stop: Ústav mateřství (bus 193, every 10-15 minutes)\n\nUseful transfers:\nfrom Iris Hotel Eden\nSlavia > tram 6 or 7 > Nádraží Vršovice > bus 193 > Ústav mateřství</string>
+    <string name="novy_porg_event"></string>
+    <string name="novy_porg_adresa"></string>
+    <string name="novy_porg_stop">Bus stop: Ústav mateřství (bus 193, every 10-15 minutes)</string>
+    <string name="novy_porg_morning_transfers">Morning transfers:</string>
+    <string name="novy_porg_useful_transfers">Useful transfers:</string>
+    <string name="novy_porg_from">from Iris Hotel Eden</string>
+    <string name="novy_porg_transfer">Slavia > tram 6 or 7 > Nádraží Vršovice > bus 193 > Ústav mateřství</string>
+
+
+    <string name="iris_hotel_nazev">Iris Hotel Eden\n<b>Accommodation and Icebreakers</b>\n\nAddress: Vladivostocká 1539/2\nTram/bus station: Slavia (tram 6 or 7, every 5-10 minutes)\n\n<b>Useful transfers:</b>\nfrom Gymnázium Nový PORG\nÚstav mateřství > bus 193 > Nádraží Vršovice > tram 6 or 7 > Slavia\n\nfrom Prague City Hall\nStaroměstská > metro A > Strašnická > tram 7 > Slavia\n\nto Václav Havel airport:\nSlavia > tram 7 > Strašnická > metro A > Nádraží Veleslavín > bus 119 > Airport</string>
+
+    <string name="prague_city_hall_nazev">Prague City Hall\n<b>Opening and Closing Ceremony</b>\n\nAddress: Mariánské náměstí 2/2\nMetro station: Staroměstská (metro A, Valentinská exit)\n\n<b>Useful transfers:</b>\nfrom Iris Hotel Eden\nSlavia > bus 135 > Náměstí Míru > metro A > Staroměstská\n\nto Václav Havel Airport\nStaroměstská > metro A > Nádraží Veleslavín > bus 119 > Airport</string>
+
+    <string name="statue_nazev">Statue of St. Wenceslas\n<b>Prague Tour Meeting Point</b>\n\nAddress: Václavské náměstí\nMetro station: Muzeum (metro A/C, Václavské náměstí exit)\n\n<b>Useful transfers:</b>\nfrom Iris Hotel Eden:\nSlavia > tram 7 > Strašnická > metro A > Muzeum</string>
+
+
+</resources>

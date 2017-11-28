@@ -1,0 +1,265 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.porgmun.martinajireckova.porgmun.activity.LunchFragment"
+    android:id="@+id/layout"
+    android:nestedScrollingEnabled="true"
+    android:background="@color/feed_bg">
+
+    <!--Název-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:text="@string/form_name"
+        android:layout_marginTop="25dp"
+        android:id="@+id/form_name"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center_horizontal" />
+    <!--Popis-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/form_name"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/description" />
+
+    <!--Name card-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:id="@+id/name_card"
+        android:layout_below="@+id/description"
+        android:padding="20dp">
+    <!--Name otázka-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_alignParentStart="false"
+        android:textSize="18sp"
+        android:id="@+id/name_question" />
+    <!--Name odpověď-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="15"
+        android:textSize="18sp"
+        android:id="@+id/name_field"
+        android:layout_below="@+id/name_question"
+        android:layout_alignStart="@+id/name_question" />
+    </LinearLayout>
+
+    <!--Lunch card-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:id="@+id/lunch_card"
+        android:layout_below="@+id/name_card"
+        android:padding="20dp">
+    <!--Lunch otázka-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lunch"
+        android:layout_alignParentStart="false"
+        android:textSize="18sp"
+        android:id="@+id/lunch_question"/>
+
+    <!--Lunch odpověď-->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lunch_question"
+        android:layout_alignStart="@+id/lunch_question"
+        android:id="@+id/lunch_group"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:id="@+id/yeslunch"
+            android:textSize="16sp"
+            android:textColor="#8C000000"
+            android:color="@color/colorPrimaryDark"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:id="@+id/nolunch"
+            android:textSize="16sp"
+            android:textColor="#8C000000"
+            android:color="@color/colorPrimaryDark"
+            android:checked="false" />
+    </RadioGroup>
+        </LinearLayout>
+
+    <!--Veg card-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:id="@+id/veg_card"
+        android:layout_below="@+id/lunch_card"
+        android:padding="20dp">
+    <!--Veg otázka-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/veg"
+        android:layout_alignParentStart="false"
+        android:textSize="18sp"
+        android:id="@+id/vegetarian_question" />
+
+    <!--Veg odpověď-->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vegetarian_question"
+        android:layout_alignStart="@+id/vegetarian_question"
+        android:id="@+id/veg_group"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:id="@+id/yesveg"
+            android:textSize="16sp"
+            android:textColor="#8C000000" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:id="@+id/noveg"
+            android:textSize="16sp"
+            android:textColor="#8C000000"
+            android:checked="false" />
+    </RadioGroup>
+    </LinearLayout>
+
+    <!--Alergie card-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:id="@+id/allergy_card"
+        android:layout_below="@+id/veg_card"
+        android:padding="20dp">
+
+    <!--Alergie otázka-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/allergies"
+        android:layout_alignParentStart="false"
+        android:textSize="18sp"
+        android:id="@+id/allergies_question" />
+
+    <!--Alergie odpověď-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="15"
+        android:id="@+id/allergies_text"
+        android:layout_below="@+id/allergies_question"
+        android:layout_alignStart="@+id/allergies_question" />
+    </LinearLayout>
+
+    <!--Speciál card-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom"
+        android:id="@+id/special_card"
+        android:layout_below="@+id/allergy_card"
+        android:padding="20dp">
+
+    <!--Special otázka-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/special"
+        android:layout_alignParentStart="false"
+        android:textSize="18sp"
+        android:id="@+id/special_question" />
+
+    <!--Speciál odpověď-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="15"
+        android:id="@+id/special_text"
+        android:layout_below="@+id/special_question"
+        android:layout_alignStart="@+id/special_question" />
+
+    </LinearLayout>
+
+
+    <!--Submit-->
+    <Button
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="38dp"
+        android:layout_width="88dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:text="Submit"
+        android:id="@+id/submit_button"
+        android:layout_below="@+id/special_card"
+        android:layout_centerHorizontal="true"
+        android:onClick="postData"/>
+
+
+</RelativeLayout>
+</ScrollView>

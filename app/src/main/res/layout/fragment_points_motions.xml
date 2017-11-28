@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.porgmun.martinajireckova.porgmun.activity.PointsMotions"
+    android:background="@color/feed_bg">
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimary">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="Rules"
+                    android:textColor="#FFFFFF"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="11dp"
+                    android:textStyle="bold"
+                    android:id="@+id/odkaz_rules"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:src="@drawable/right"/>
+            </LinearLayout>
+
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:divider="@color/feed_bg"
+                android:dividerHeight="10dp"
+                android:fastScrollEnabled="true"
+                android:fastScrollAlwaysVisible="false"
+                android:id="@+id/list">
+                </ListView>
+        </LinearLayout>
+
+</FrameLayout>

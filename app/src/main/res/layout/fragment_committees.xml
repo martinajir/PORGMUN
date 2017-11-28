@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.porgmun.martinajireckova.porgmun.activity.CommitteeFragment"
+    android:background="@color/feed_bg">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- android:layout_marginLeft="20dp"
+                  android:layout_marginRight=""-->
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_vertical"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hlavni"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textSize="14sp"
+                        android:gravity="left|top"
+                        android:id= "@+id/text_top_0"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="0.9"
+                        android:layout_gravity="center_vertical"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50sp"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka0"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hlavni_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom_0"
+                    />
+
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+             <android.support.v7.widget.CardView
+            android:id="@+id/card_view_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_vertical"
+            >
+                 <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:divider="@drawable/committee"
+                     android:showDividers="end"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+
+                     android:padding="2dp">
+
+                 <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:orientation="horizontal">
+
+                     <ImageView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="5dp"
+                         android:src="@drawable/security_council"
+                         android:layout_gravity="center_vertical"
+                         android:layout_weight="0.1"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/security_council"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:gravity="left|top"
+                android:id= "@+id/text_top"
+                android:layout_marginRight="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.8"/>
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="50sp"
+                   android:src="@drawable/right"
+                   android:layout_gravity="right"
+                   android:baselineAlignBottom="false"
+                   android:id="@+id/sipka1"
+                   android:layout_weight="0.1"/>
+           </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/security_popisek"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:gravity="left|top"
+                android:id="@+id/text_bottom"
+                />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/download1"
+                         android:padding="10dp"
+                         android:textSize="16sp"
+                         android:gravity="left|top"
+                         android:id="@+id/text_bottom1_2"
+                         android:textIsSelectable="true"/>
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/download_sc_rules"
+                         android:padding="10dp"
+                         android:textSize="16sp"
+                         android:gravity="left|top"
+                         android:id="@+id/text_bottom1_3"
+                         android:textIsSelectable="true"/>
+
+
+
+                 </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/unhcr"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/human_rights"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.8"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka2"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/human_rights_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom2_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom2_3"
+                    />
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/security_council"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/historical_security_council"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.8"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka3"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/historical_security_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom3"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom3_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download_hsc_rules"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom3_3"
+                    android:textIsSelectable="true"/>
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/icj"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/international_court"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top4"
+                    android:layout_weight="0.8"
+                    android:layout_gravity="center_vertical"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka4"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ic_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom4"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/downloadg1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom4_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/downloadg2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom4_3"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download_rp"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom4_4"
+                    android:textIsSelectable="true"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/security_council"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disarmament"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top5"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.8"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka5"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disarmament_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom5"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom5_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom5_3"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/lc"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+
+                    <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/human_trafficking"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top6"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.8"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka6"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/human_trafficking_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom6"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom6_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom6_3"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/security_council"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/economic_council"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top7"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.8"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka7"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/economic_council_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom7"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom7_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom7_3"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/au"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/environmental_committee"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top8"
+                    android:layout_weight="0.8"
+                    android:layout_gravity="center_vertical"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka8"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/environmental_committee_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom8"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom8_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom8_3"
+                    />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/sdc"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender_equality"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top9"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.8"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka9"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender_equality_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom9"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom9_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom9_3"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:divider="@drawable/committee"
+                android:showDividers="end"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/security_council"
+                        android:layout_weight="0.1"
+                        android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/financial_economic"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top10"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.8"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka10"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/financial_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom10"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom10_2"
+                    android:textIsSelectable="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download2"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom10_3"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/card_view_11"
+            android:layout_marginBottom="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/who"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.1"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/who"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:gravity="left|top"
+                    android:id= "@+id/text_top11"
+                    android:layout_weight="0.8"
+                    android:layout_gravity="center_vertical"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_gravity="right"
+                        android:baselineAlignBottom="false"
+                        android:id="@+id/sipka11"
+                        android:layout_weight="0.1"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/who_popisek"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom11"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/download1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:gravity="left|top"
+                    android:id="@+id/text_bottom11_2"
+                    android:textIsSelectable="true"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>-->
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

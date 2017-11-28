@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.porgmun.martinajireckova.porgmun.activity.ContactFragment"
+    android:background="@color/feed_bg">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!--SG-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+                  android:layout_weight="0.09">
+
+
+       <!-- <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/hani"
+            android:id="@+id/hani"
+            android:layout_gravity="center_vertical|left"
+            android:layout_weight="0.6"
+            android:layout_marginLeft="10dp"/>-->
+
+        <com.porgmun.martinajireckova.porgmun.volley_adapter.Circle
+            android:id="@+id/hani"
+            android:src="@drawable/hani"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:contentDescription="fotka"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_weight="0.6"/>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical|right"
+            android:layout_weight="0.4">
+            <!--android:layout_marginBottom="10dp"-->
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/secretary_general"
+                android:text="SECRETARY-GENERAL"
+                android:textStyle="bold"
+                android:gravity="left|top"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left" />
+            <TextView
+                android:id="@+id/hanka_jmeno"
+                android:text="Hana Jirovska"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/email_ikona_0"
+                    android:src="@drawable/ic_email_black_18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="3dp" />
+
+                <TextView
+                android:id="@+id/hanka_mail"
+                android:text="jirovska@porgmun.cz"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                android:gravity="left"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/email_ikona"
+                        android:src="@drawable/ic_email_black_18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp" />
+
+                    <TextView
+                        android:id="@+id/hanka_mail_2"
+                        android:text="secretariat@porgmun.cz"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/phone_ikona_hanka"
+                        android:src="@drawable/ic_call_black_18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:layout_marginLeft="3dp" />
+
+                    <TextView
+                        android:id="@+id/hanka_tel"
+                        android:text="+420 778 042 652"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+       <!--deputy SG-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.09">
+
+        <com.porgmun.martinajireckova.porgmun.volley_adapter.Circle
+            android:id="@+id/sarafotka"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sarafotka"
+            android:contentDescription="fotka"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_weight="0.6"/>
+        <!-- A CardView that contains a TextView -->
+
+            <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            android:layout_weight="0.4">
+                <!-- android:layout_marginBottom="10dp"-->
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/deputy"
+                    android:text="DEPUTY SECRETARY-GENERAL"
+                    android:textStyle="bold"
+                    android:gravity="top"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left" />
+                <TextView
+                    android:id="@+id/sara_jmeno"
+                    android:text="Sára Davidová"
+                    android:padding="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <ImageView
+                        android:id="@+id/email_ikona2"
+                        android:src="@drawable/ic_email_black_18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp" />
+
+                    <TextView
+                        android:id="@+id/sara_mail"
+                        android:text="secretariat@porgmun.cz"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/phone_ikona_sara"
+                        android:src="@drawable/ic_call_black_18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:layout_marginLeft="3dp" />
+
+                    <TextView
+                        android:id="@+id/sara_tel"
+                        android:text="+420 773 194 105"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="left"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <!--Šimon-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.09">
+
+            <com.porgmun.martinajireckova.porgmun.volley_adapter.Circle
+                android:id="@+id/simonfotka"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/simon"
+                android:contentDescription="fotka"
+                android:layout_gravity="center_vertical|left"
+                android:layout_weight="0.6"
+                android:layout_marginLeft="15dp"/>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:layout_weight="0.4"
+                >
+                <!--   android:layout_marginBottom="10dp"-->
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/registration"
+                        android:text="HEAD OF LOGISTICS"
+                        android:textStyle="bold"
+                        android:gravity="top"
+                        android:padding="5dp"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left" />
+                    <TextView
+                        android:id="@+id/simon_jmeno"
+                        android:text="Šimon Olmer"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                        <ImageView
+                            android:id="@+id/email_ikona_simon"
+                            android:src="@drawable/ic_email_black_18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:padding="3dp" />
+
+                        <TextView
+                            android:id="@+id/simon_mail"
+                            android:text="olmer@porgmun.cz"
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="left"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <!--Mirek-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.09">
+
+            <com.porgmun.martinajireckova.porgmun.volley_adapter.Circle
+                android:id="@+id/mirekfotka"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/mirek"
+                android:contentDescription="fotka"
+                android:layout_gravity="center_vertical|left"
+                android:layout_weight="0.6"
+                android:layout_marginLeft="15dp"/>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view3_novy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:layout_weight="0.4"
+                >
+                <!--   android:layout_marginBottom="10dp"-->
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/pga"
+                        android:text="PRESIDENT OF THE GENERAL ASSEMBLY"
+                        android:textStyle="bold"
+                        android:gravity="top"
+                        android:padding="5dp"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left" />
+                    <TextView
+                        android:id="@+id/mirek_jmeno"
+                        android:text="Mirek Crha"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                        <ImageView
+                            android:id="@+id/email_ikona_mirek"
+                            android:src="@drawable/ic_email_black_18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:padding="3dp" />
+
+                        <TextView
+                            android:id="@+id/mirek_mail"
+                            android:text="crha@porgmun.cz"
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="left"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <!--leah-bára-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.09">
+
+            <com.porgmun.martinajireckova.porgmun.volley_adapter.Circle
+                android:id="@+id/leabarafotka"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/leabara"
+                android:contentDescription="fotka"
+                android:layout_gravity="center_vertical|left"
+                android:layout_weight="0.6"
+                android:layout_marginLeft="15dp"/>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view3_lea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:layout_weight="0.4"
+                >
+                <!--   android:layout_marginBottom="10dp"-->
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/registration_2"
+                        android:text="HEADS OF REGISTRATION"
+                        android:textStyle="bold"
+                        android:gravity="top"
+                        android:padding="5dp"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left" />
+                    <TextView
+                        android:id="@+id/registr_jmeno"
+                        android:text="Leah Koutná and Barbora Lišková"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                        <ImageView
+                            android:id="@+id/email_ikona_lea"
+                            android:src="@drawable/ic_email_black_18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:padding="3dp" />
+
+                        <TextView
+                            android:id="@+id/lea_mail"
+                            android:text="registration@porgmun.cz"
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="left"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+
+        <!--Martina-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.09">
+
+        <com.porgmun.martinajireckova.porgmun.volley_adapter.Circle
+            android:id="@+id/martinafotka"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/martina"
+            android:contentDescription="fotka"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_weight="0.6"/>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:layout_weight="0.4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/it"
+                android:text="HEAD OF IT"
+                android:textStyle="bold"
+                android:gravity="top"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left" />
+            <TextView
+                android:id="@+id/martina_jmeno"
+                android:text="Martina Jirečková"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:id="@+id/email_ikona4"
+                    android:src="@drawable/ic_email_black_18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:id="@+id/martina_mail"
+                    android:text="it@porgmun.cz"
+                    android:padding="5dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"/>
+            </LinearLayout>
+        </LinearLayout>
+            </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:ext="http://schemas.android.com/apk/res-auto"
+                tools:context="com.porgmun.martinajireckova.porgmun.activity.Vote_Rollcall"
+                android:background="@color/feed_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Rules"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="20dp"
+                android:paddingTop="11dp"
+                android:textStyle="bold"
+                android:id="@+id/odkaz_rules"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/right"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Voting"
+                android:textColor="#FFFFFF"
+                android:paddingTop="11dp"
+                android:textStyle="bold"
+                android:id="@+id/odkaz_points"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <!-- <com.porgmungmun.adapter.JustifiedTextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/jtext1">
+
+                 </com.porgmungmun.adapter.JustifiedTextView>
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="20dp"/>
+                 <com.porgmungmun.adapter.JustifiedTextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/jtext2">
+
+                 </com.porgmungmun.adapter.JustifiedTextView>-->
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:text="@string/vote_rollcall_popisek"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
